@@ -5,7 +5,7 @@ jobs:
     working_directory: ~/react-tutorial
 
     docker:
-      - image: cicrleci/node:4.8.2
+      - image: circleci/node:4.8.2
 
     steps:
       - checkout
