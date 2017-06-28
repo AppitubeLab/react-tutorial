@@ -1,3 +1,6 @@
+# React Tutorial
+[![CircleCI](https://circleci.com/gh/AppitubeLab/react-tutorial.svg?style=svg&circle-token=be4a8b8b88df7cf881a4ce5b1384a3b6a4fe0cdc)](https://circleci.com/gh/AppitubeLab/react-tutorial)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
