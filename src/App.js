@@ -15,20 +15,23 @@ class App extends React.Component {
       return (
         <div>
           <h1>{this.state.placeholder}</h1>
-          <input type="text" onChange={this.update.bind(this)} />
+          <Input update={this.update.bind(this)} />
+          <Button>We <Heart /> React</Button>
         </div>
       )
   }
 }
 
-App.propTypes = {
-  class: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired
-}
+const Input = (props) => 
+  <input type="text" onChange={props.update} />
 
-App.defaultProps = {
-  id: "app",
-  class: "canvas"
+const Button = (props) =>
+  <button>{props.children}</button>
+
+class Heart extends React.Component {
+  render() {
+    return <span>&hearts;</span>
+  }
 }
 
 export default App
